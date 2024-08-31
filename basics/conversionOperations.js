@@ -1,10 +1,10 @@
 let score = "33";
 
-console.log(typeof score); // string
+// console.log(typeof score); // string
 
 let valueInNumber = Number(score); // this is the conversion operation
 
-console.log(typeof valueInNumber); // number
+// console.log(typeof valueInNumber); // number
 
 // "33" => string
 // 33 => number
@@ -20,4 +20,12 @@ let isBooleanValue = Boolean(booleanValue);
 // null = false
 //"tatai" = true
 
-console.log(isBooleanValue);
+// console.log(isBooleanValue);
+
+//convet number into string
+
+let number = 123;
+let string = String(number);
+// console.log(typeof string); // string
+
+// ********************OPERATIONS*********************
