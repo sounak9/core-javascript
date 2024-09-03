@@ -1,26 +1,36 @@
-const myArr = [0, 1, 2, 3, 4, 5]; // declearing an array
-// console.log(myArr[1]); // indexing an array values
+// const myArr = [0, 1, 2, 3, 4, 5]; // declearing an array
+// // console.log(myArr[1]); // indexing an array values
 
-const arr2 = new Array(1, 2, 3, 4); // defining an array as object
-// console.log(arr2);
+// const arr2 = new Array(1, 2, 3, 4); // defining an array as object
+// // console.log(arr2);
 
-// Array methods
-// myArr.push(6);
-// myArr.push(7);
-// console.log(myArr); // adding an element to the end of the array
-// myArr.pop();// deleting the last element of the array
-// myArr.unshift(0); // adding the element in the first index
-// myArr.shift(); // removing the first element in an array
+// // Array methods
+// // myArr.push(6);
+// // myArr.push(7);
+// // console.log(myArr); // adding an element to the end of the array
+// // myArr.pop();// deleting the last element of the array
+// // myArr.unshift(0); // adding the element in the first index
+// // myArr.shift(); // removing the first element in an array
 
-// console.log(myArr.includes(9)); // returns the boolean value as it checks the value present in the array or not
+// // console.log(myArr.includes(9)); // returns the boolean value as it checks the value present in the array or not
 
-// const newArr = myArr.join(); // converts the array elements into string and returns the comma seperated values
+// // const newArr = myArr.join(); // converts the array elements into string and returns the comma seperated values
 
-// console.log(newArr);
-const nArr = myArr.slice(1, 3);
-console.log("b", myArr); // returns the array elements from the specified index to the end of the
-console.log(nArr);
-// console.log(myArr.slice(1, 3)); // returns the array elements from the index
-const nArr1 = myArr.splice(1, 3);
-console.log("A", myArr); // changes the actual array
-console.log(nArr1);
+// // console.log(newArr);
+// const nArr = myArr.slice(1, 3);
+// console.log("b", myArr); // returns the array elements from the specified index to the end of the
+// console.log(nArr);
+// // console.log(myArr.slice(1, 3)); // returns the array elements from the index
+// const nArr1 = myArr.splice(1, 3);
+// console.log("A", myArr); // changes the actual array
+// console.log(nArr1);
+
+const marvel_heros = ["ironman", "thor", "hulk"];
+const marvel_villains = ["lucifer", "joker", "loki"];
+
+// const all_char = marvel_heros.concat(marvel_villains); // concat Combines two or more arrays. This method returns a new array without modifying any existing arrays.
+
+// using another method
+// const all_char = [...marvel_heros, ...marvel_villains]; // spread operator
+
+// console.log(all_char);
