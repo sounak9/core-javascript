@@ -17,3 +17,10 @@ const arr2 = new Array(1, 2, 3, 4); // defining an array as object
 // const newArr = myArr.join(); // converts the array elements into string and returns the comma seperated values
 
 // console.log(newArr);
+const nArr = myArr.slice(1, 3);
+console.log("b", myArr); // returns the array elements from the specified index to the end of the
+console.log(nArr);
+// console.log(myArr.slice(1, 3)); // returns the array elements from the index
+const nArr1 = myArr.splice(1, 3);
+console.log("A", myArr); // changes the actual array
+console.log(nArr1);
